@@ -1,0 +1,36 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    /**  Contador y acumulador
+     **/
+
+    int contador=0,acumulador=0;
+    cout<<acumulador<<endl;
+    while(contador<=10){
+        cout<<contador<<endl;
+        contador++;
+        acumulador = acumulador + contador;
+        /**
+            CONTADOR        ACUMULADOR
+              0                 0
+              1                 1
+              2                 3
+              3                 6
+              4                 10
+              5                 15
+              6                 21
+              7                 28
+              8                 36
+              9                 45
+              10                55
+              11                66
+        **/
+    }
+    cout<<"Contador "<<contador<<endl;
+    cout<<"El valor de acumulador es "<<acumulador<<endl;
+
+    return 0;
+}
+
+

@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    /**Escriba un programa que dibuje un triangulo rectangulo
+    usando algún caracter. Ingrese por consola el valor de N,
+    siendo N la base y altura del triangulo.
+    Ejemplo. N = 4
+    *
+    **
+    ***
+    ****                        **/
+
+    int N;
+    cout<<"Ingrese N:";
+    cin>>N;
+
+    for(int i=1;i<=N;i++){
+        for(int e=1;e<=i;e++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+

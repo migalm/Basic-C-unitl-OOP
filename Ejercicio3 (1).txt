@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    /** Escriba un programa que lea varios valores hasta
+    ingresar un valor negativo. Luego muestre la suma de estos.**/
+    float numero,suma=0;
+
+    do{
+        cout<<"Numero:";
+        cin>>numero;
+        if(numero>=0){
+            suma = suma + numero;
+        }
+    }while(numero>=0);
+    cout<<"Total "<<suma<<endl;
+    return 0;
+}
+
+
+

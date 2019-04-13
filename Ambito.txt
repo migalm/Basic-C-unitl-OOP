@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int i=100;
+int main(){
+    /** Ambito de una variable **/
+
+    for(;;i++){
+        cout<<i<<endl;
+        if(true){
+
+            cout<<i<<endl;
+        }
+    }
+
+    return 0;
+}
+
+
